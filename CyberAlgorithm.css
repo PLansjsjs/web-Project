@@ -1,0 +1,99 @@
+/* Cyber Algorithm Styles */
+.cyber-algorithm {
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+.cyber-algorithm .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.cyber-algorithm .title {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.step-content {
+  margin-top: 2rem;
+}
+
+.step-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.step-items {
+  padding-left: 2rem;
+  margin: 1.5rem 0;
+}
+
+.step-items li {
+  margin-bottom: 0.8rem;
+}
+
+.completion-message {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.scenarios-toggle {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.threat-scenarios {
+  margin-top: 2rem;
+}
+
+.scenarios-title {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.scenarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.scenario-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.scenario-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.scenario-steps {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.scenario-steps li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .cyber-algorithm .container {
+    padding: 0 1rem;
+  }
+  
+  .scenarios-grid {
+    grid-template-columns: 1fr;
+  }
+}

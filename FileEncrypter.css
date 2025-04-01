@@ -1,0 +1,97 @@
+/* File Encrypter Styles */
+.file-encrypter {
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+.file-encrypter .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.file-encrypter .title {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.toggle-button {
+  margin-bottom: 2rem;
+}
+
+.upload-button {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.file-name {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.process-button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.result-section {
+  margin-top: 2rem;
+}
+
+.result-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.encrypted-text, .decrypted-text {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.binary-message {
+  color: #666;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.download-button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.info-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.error-alert {
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .file-encrypter .container {
+    padding: 0 1rem;
+  }
+}
